@@ -37,4 +37,4 @@ def read_img(img_path, model):
 model = load_model('trained_model')
 img_path = input()
 number, pos = read_img(img_path, model)
-print(number, '%.5f' % pos * 100)
+print(number, '%.5f' % pos)
